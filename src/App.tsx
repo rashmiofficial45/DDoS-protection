@@ -17,8 +17,9 @@ function App() {
 
       <button onClick={() => {
         axios.post("http://localhost:3000/reset-password", {
-          email: "harkirat@gmail.com",
+          email: "rashmi@gmail.com",
           otp: "123456",
+          newPassword:"a_new_password",
           token: token,
         })
       }}>Update password</button>
